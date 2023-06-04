@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pocket Gauge</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="header">
-    <span class="logo">
-      <img src="C:\Users\jonat\webhostedpocketgauge\bluelogo.png" alt="Your Logo">
-    </span>
-    <span class="text">Software developed by VAS</span>
-  </div>
-
   <div class="container">
     <h1>Pocket Gauge</h1>
-    <label for="totalOil">Total Oil Produced: </label>
-    <span id="totalOil">0 barrels</span>
-    <div id="tanks"></div>
-    <button id="addTank">Add Tank</button>
+    <div id="totalOilLabel" class="total-oil-label">Total Oil Produced: 0 barrels</div>
+    <div id="tankInterface" class="tank-interface"></div>
   </div>
-
   <script src="script.js"></script>
 </body>
-
 </html>
