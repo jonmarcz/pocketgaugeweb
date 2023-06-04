@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .total-oil-label {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tank-interface {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tank {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .tank-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tank input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .tank button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
