@@ -47,4 +47,22 @@ body {
     border: none;
     cursor: pointer;
   }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
   
+  .logo img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .text {
+    font-weight: bold;
+  }
+   
